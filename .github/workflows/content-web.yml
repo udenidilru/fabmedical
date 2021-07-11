@@ -2,9 +2,9 @@ name: content-web
 # This workflow is triggered on push to the 'content-web' directory of the main branch of the 
 repository
 on:
- push:
-  branches:
-   - main
+  push:
+    branches:
+      - main
   paths:
    - 'content-web/**'
  # Configure workflow to also support triggering manually
